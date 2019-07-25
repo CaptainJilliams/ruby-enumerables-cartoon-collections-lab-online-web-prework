@@ -37,9 +37,9 @@ def find_the_cheese(array)
   array.collect do |food|
     cheeses = cheese_types.join("")
     if food.include?(cheeses)
-      return food
-    else
       return nil
+    else
+      return food
     end
   end
 end
