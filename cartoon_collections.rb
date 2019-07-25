@@ -22,9 +22,9 @@ def long_planeteer_calls(array)
 
   word_test.map do |word|
     if word.length < 4
-      return false
-    else
       return true
+    else
+      return false
     end
   end
 end
