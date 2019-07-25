@@ -39,5 +39,6 @@ def find_the_cheese(array)
       p food
     else
       return nil
+    end
   end
 end
