@@ -14,6 +14,7 @@ def summon_captain_planet(array)
   power_call.map do |powers|
     combined_powers << "#{powers.capitalize}!"
   end
+  return combined_powers
 end
 
 def long_planeteer_calls# code an argument here
