@@ -37,7 +37,7 @@ def find_the_cheese(array)
   array.collect do |food|
     cheeses = cheese_types.join("")
     if food.include?(cheeses)
-      p food
+      p cheeses
     else
       return nil
     end
