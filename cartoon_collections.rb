@@ -35,7 +35,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   search_list.map do |food|
-    if food.include?(cheese_types)
+    if food.include?()
       p food
     else
       return nil
