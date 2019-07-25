@@ -32,10 +32,9 @@ end
 def find_the_cheese(array1, array2)
   # the array below is here to help
   search_list = array1
-  cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types = array2
 
   array1.find do |food|
-
+    
   end
 end
