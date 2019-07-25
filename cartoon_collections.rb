@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   names_list = dwarves
   names_list.map do |little_dudes|
     puts "#{little_dudes}"
+  end
 end
 
 def summon_captain_planet# code an argument here
