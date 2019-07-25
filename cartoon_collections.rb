@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  count = 0
+  count = 1
   names_list = dwarves
   names_list.map do |little_dudes|
     puts "#{count}. #{little_dudes}"
