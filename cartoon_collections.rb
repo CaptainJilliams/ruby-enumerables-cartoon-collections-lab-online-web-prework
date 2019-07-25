@@ -35,7 +35,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   array.collect do |food|
-    if food.include?("cheddar", "gouda", "camember")
+    cheeses = cheese_types.join("")
+    if food.include?(cheeses)
       p food
     else
       return nil
