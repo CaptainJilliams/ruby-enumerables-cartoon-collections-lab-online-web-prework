@@ -31,15 +31,14 @@ end
 
 def find_the_cheese(array)
   # the array below is here to help
-  search_list = array
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheeses = cheese_types.join(" ")
-
-  array.collect do |food|
-    if food.include?(cheeses)
-      return cheeses
-    else
-      return nil
-    end
-  end
+  #cheeses = cheese_types.join(" ")
+  array.find {|food| cheese_types.include?(food)}
+  #array.collect do |food|
+  #  if food.include?(cheeses)
+  #    return cheeses
+  #  else
+  #    return nil
+  #  end
+  #end
 end
