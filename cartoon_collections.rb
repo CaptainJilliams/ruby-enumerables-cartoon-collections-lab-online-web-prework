@@ -39,7 +39,7 @@ def find_the_cheese(array)
     if food.include?(cheeses)
       return nil
     else
-      return food
+      return cheeses
     end
   end
 end
