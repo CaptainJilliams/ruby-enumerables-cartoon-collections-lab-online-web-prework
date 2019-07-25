@@ -34,4 +34,7 @@ def find_the_cheese(array)
   search_list = array
   cheese_types = ["cheddar", "gouda", "camembert"]
 
+  array.collect do |food|
+    food.include?(cheese_types.join(""))
+  end
 end
