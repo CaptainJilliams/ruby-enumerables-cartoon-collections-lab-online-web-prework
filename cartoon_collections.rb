@@ -38,7 +38,7 @@ def find_the_cheese(array)
     if food.include?(cheese_types.join(""))
       p food
     else
-      return nil
+       nil
     end
   end
 end
