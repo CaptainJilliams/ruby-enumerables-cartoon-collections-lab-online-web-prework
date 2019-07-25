@@ -36,7 +36,5 @@ def find_the_cheese(array)
 
   search_list.map do |food|
     food.include?(cheese_types.join(""))
-      p food
   end
-  return nil
 end
